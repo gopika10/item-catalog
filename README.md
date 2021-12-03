@@ -1,4 +1,4 @@
-# Item Catalogue
+# Item Catalog
 This is Zing Test Project
 
 ## Candidate have to read this requirements before start.
