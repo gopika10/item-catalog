@@ -1,0 +1,19 @@
+.list-box {
+  display: flex;
+  justify-content: space-between;
+
+  section {
+    width: 49%;
+    padding: 20px;
+    border: 1px solid black;
+    border-top: 0;
+
+    &.sec-left {
+      border-right-width: 0;
+    }
+  }
+}
+
+
+
+

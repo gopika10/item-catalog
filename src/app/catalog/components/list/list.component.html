@@ -1,0 +1,15 @@
+<div class="list-box">
+  <section class="sec-left">
+    <h2>Item List</h2>
+    <ul>
+      <li *ngFor="let item of items | async">
+        <a routerLink="item" [queryParams]="{id: item.id}">
+          {{item.name}}
+        </a>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <router-outlet></router-outlet>
+  </section>
+</div>
